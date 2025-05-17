@@ -76,8 +76,8 @@ def create_tools(index: VectorStoreIndexWrapper, llm) ->List[BaseTool]:
         search_kwargs={
             "filter": None,
             "fetch_k": 40,   
-            "lambda_mult": 0.5,  # 関連性と多様性のバランスを調整
-            "score_threshold": 0.5  # 類似度スコアの閾値         
+            "lambda_mult": 0.6,  # 関連性と多様性のバランスを調整
+            "score_threshold": 0.6  # 類似度スコアの閾値         
         }
     )
     
