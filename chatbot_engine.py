@@ -37,7 +37,7 @@ os.environ['LANGCHAIN_PROJECT'] = "LangSmith-test"
 
 # Pinecone初期化
 pc = Pinecone(api_key=PINECONE_API_KEY)
-index_name = "raiden"
+index_name = "raiden-main"
 
 # グローバル変数の最適化
 llm = ChatOpenAI(model_name="gpt-4", temperature=0,)
